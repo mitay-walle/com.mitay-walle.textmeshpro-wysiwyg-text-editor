@@ -17,5 +17,7 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview
 - many [TextMeshPro tags](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html)
 - tag parameters
 
+# Known Issues
+- alpha < 1 make next text blocks to disappear
 # Planned
 - installation as UPM-package
