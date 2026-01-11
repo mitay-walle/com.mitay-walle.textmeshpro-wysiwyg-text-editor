@@ -11,6 +11,7 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview
 - Ctrl + Z / undo
 - preview inside EditorWindow
 - select clean text block -> apply/clear any effects
+- effects are togglable
 - clear style button
 - intersecting styles
 - final result text to copy/paste
