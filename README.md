@@ -15,7 +15,7 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview, undo, tag pa
 - clear all effects button
 - intersecting styles
 - final result text to copy/paste
-- many [TextMeshPro tags](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html)
+- supporting many [TextMeshPro tags](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html)
 - tag parameters
 
 # Known Issues
