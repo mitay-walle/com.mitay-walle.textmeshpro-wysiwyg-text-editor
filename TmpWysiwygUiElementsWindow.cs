@@ -168,10 +168,15 @@ namespace Game.Editor
 
 			_rootScroll.Add(toolbar);
 
-			var tagRow = new VisualElement();
-			tagRow.style.marginTop = 6;
-			tagRow.style.flexDirection = FlexDirection.Row;
-			tagRow.style.flexWrap = Wrap.Wrap;
+			var tagRow = new VisualElement
+			{
+				style =
+				{
+					marginTop = 6,
+					flexDirection = FlexDirection.Row,
+					flexWrap = Wrap.Wrap,
+				},
+			};
 
 			//tagRow.style.gap = 6;
 
@@ -222,7 +227,6 @@ namespace Game.Editor
 			_voffsetField = new FloatField { value = 0f };
 
 			//_voffsetField.style.width = 90;
-
 			tagRow.Add(_uToggle);
 			tagRow.Add(_sToggle);
 			tagRow.Add(_supToggle);
@@ -236,6 +240,19 @@ namespace Game.Editor
 
 			tagRow.Add(_styleToggle);
 			tagRow.Add(_styleNameField);
+
+			_rootScroll.Add(tagRow);
+			tagRow = new VisualElement
+			{
+				style =
+				{
+					marginTop = 6,
+					flexDirection = FlexDirection.Row,
+					flexWrap = Wrap.Wrap,
+				},
+			};
+
+			_rootScroll.Add(tagRow);
 
 			tagRow.Add(_alphaToggle);
 			tagRow.Add(_alphaField);
@@ -254,8 +271,6 @@ namespace Game.Editor
 
 			tagRow.Add(_voffsetToggle);
 			tagRow.Add(_voffsetField);
-
-			_rootScroll.Add(tagRow);
 
 			_selectionLabel = new Label();
 			_selectionLabel.style.marginTop = 8;
