@@ -6,6 +6,16 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview, undo, tag pa
 # Installation
 - drop TmpWysiwygUiElementsWindow.cs-file to Assets/.../Editor/ folder
 
+# Usage
+- open Window by MenuItem: Window/TextMeshPro/WYSIWYG Text Editor
+- paste original text to "Clean" text field
+- select there any text part
+- in top most toolbar fill any parameters
+- toggle any effects
+- visualy checkout preview
+- tweak parameters, toggle effects
+- copy TextMeshPro-tagged text from "Result" text field
+
 # Features
 - EditorWindow
 - Ctrl + Z / undo
