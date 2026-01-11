@@ -32,6 +32,7 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview, undo, tag pa
 # Known Issues
 - alpha < 1 make next text blocks to disappear
 - inserting `<sprite>` tag require text selection (should be text caret position enough)
+- adding enter-new-lines after editing break character ordering (effects apply with offset)
 # Planned
 - installation as UPM-package
 - fix known issues
