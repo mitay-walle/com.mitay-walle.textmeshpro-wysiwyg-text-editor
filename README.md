@@ -12,7 +12,7 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview, undo, tag pa
 - preview inside EditorWindow
 - select clean text block -> apply/clear any effects
 - effects are togglable
-- clear style button
+- clear all effects button
 - intersecting styles
 - final result text to copy/paste
 - many [TextMeshPro tags](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html)
