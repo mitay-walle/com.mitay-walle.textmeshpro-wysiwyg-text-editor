@@ -36,4 +36,5 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview, undo, tag pa
 # Planned
 - installation as UPM-package
 - fix known issues
+- extract TextMeshPro-tags to continue edit after reboot
 - hotkeys
