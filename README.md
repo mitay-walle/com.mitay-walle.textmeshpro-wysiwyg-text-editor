@@ -19,7 +19,7 @@ Unity EditorWindow to edit text with TextMeshPro tags with preview
 
 # Known Issues
 - alpha < 1 make next text blocks to disappear
-- <sprite> not inserting with empty selected text
+- <sprite> inserting require text selection (should be text caret position enough)
 # Planned
 - installation as UPM-package
 - fix known issues
